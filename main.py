@@ -72,7 +72,7 @@ def PDFsplit(pdf):
             X_train_pca_a.append(np.concatenate((temp1, temp2)))
         pred=clf.predict(X_train_pca_a)
         prob=max(clf.predict_proba(X_train_pca_a)[0])
-        if prob <.5: 
+        if prob <.4: 
             #print(pred[0],prob)
             file='other'
         else:
