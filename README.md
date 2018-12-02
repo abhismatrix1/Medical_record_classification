@@ -6,5 +6,5 @@ Clone this repo and create new anaconda environment using the environment.yml fi
 ```
 conda env create -f environment.yml
 ```
-edit main.py for document folder for which this model need to be trained
-run main.py 
+-Edit main.py for document folder for which this model need to be trained
+-Run main.py 
